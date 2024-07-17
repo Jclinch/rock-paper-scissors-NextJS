@@ -4,6 +4,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .h2 {
@@ -19,12 +21,18 @@
   height: 50px;
 }
 
+.scores {
+  border: dotted royalblue 2px;
+  margin: 20px 0;
+}
+
 
 .buttons {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .button {
@@ -45,9 +53,13 @@
   cursor: pointer;
   border-radius: 12px; /* Slightly rounded border */
   overflow: hidden;
+  width: 100px; /* Set a fixed width for better responsiveness */
+  height: 100px; 
 }
 
-.button:global(span) {
+
+
+.button img {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -81,3 +93,14 @@
     height: 40px; /* Reduce image size on small screens */
   }
 }
+
+/* body {
+  background: url('/images/rps-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
