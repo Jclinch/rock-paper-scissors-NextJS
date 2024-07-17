@@ -62,3 +62,22 @@
   pointer-events: none;
   z-index: 1;
 }
+
+
+@media (max-width: 600px) {
+  .buttons {
+    gap: 10px; /* Reduce gap between buttons on small screens */
+  }
+
+  .button {
+    width: 80px; /* Reduce button size on small screens */
+    height: 80px; /* Reduce button size on small screens */
+    font-size: 14px; /* Reduce font size on small screens */
+    padding: 10px 20px; /* Adjust padding on small screens */
+  }
+
+  .choice-img {
+    width: 40px; /* Reduce image size on small screens */
+    height: 40px; /* Reduce image size on small screens */
+  }
+}
