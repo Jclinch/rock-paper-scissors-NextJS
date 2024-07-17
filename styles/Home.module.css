@@ -1,9 +1,9 @@
 .container {
   text-align: center;
-  background-color: #ffffff;
+  background-color: #990a8d59;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgb(29, 29, 29);
   max-width: 600px;
   margin: 0 auto;
 }
